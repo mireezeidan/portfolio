@@ -1,0 +1,45 @@
+/* wire frame TODO: delete later */
+header,
+main,
+footer {
+    border: 1px solid navy;
+}
+
+/* reset */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element selectors */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header,
+main,
+footer {
+    padding: 1.5rem;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+
+
+/* classes */
+.pt {
+    padding-top: 1.5rem;
+}

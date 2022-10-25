@@ -43,3 +43,7 @@ main {
 .pt {
     padding-top: 1.5rem;
 }
+
+.sb {
+    scroll-behavior: smooth;
+}

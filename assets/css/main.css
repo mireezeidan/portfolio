@@ -92,6 +92,10 @@ img {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.td-u {
+    text-decoration: underline;
+}
+
 .sb {
     scroll-behavior: smooth;
 }

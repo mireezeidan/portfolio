@@ -6,9 +6,6 @@ img {
 }
 
 /* classes */
-h2:hover {
-    display: block;
-}
 
 /* spacing */
 .ai-c {
@@ -21,6 +18,10 @@ h2:hover {
 
 .fxd-c {
     flex-direction: column;
+}
+
+.jc-c {
+    justify-content: center;
 }
 
 .jc-sb {
@@ -68,6 +69,14 @@ h2:hover {
     height: 100vh;
 }
 
+.h-200 {
+    height: 200px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
 .maw-6r {
     max-width: 6rem;
 }
@@ -82,6 +91,14 @@ h2:hover {
 
 .w-22r {
     width: 22rem;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.w-450 {
+    width: 450px;
 }
 
 /* border */
@@ -118,6 +135,10 @@ h2:hover {
     background-color: purple;
 }
 
+.bg-lg {
+    background: linear-gradient(chartreuse purple);
+}
+
 /* typography */
 .ff-t {
     font-family: 'Times New Roman', Times, serif;
@@ -133,6 +154,10 @@ h2:hover {
 
 .lh-2 {
     line-height: 2;
+}
+
+.ta-c {
+    text-align: center;
 }
 
 .td-u {
